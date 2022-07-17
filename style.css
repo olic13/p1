@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;900&display=swap');
+*{  
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	color: white;
+}
+html{
+	font-size: 16px;
+}
+body{
+	font-family: 'Noto Sans Arabic', sans-serif;
+	background-color: #d9e2ec;
+}
+nav{
+	background-color: #57cfff;
+	background-color: #00c7ff;
+	background-image: linear-gradient(160deg,
+ 	#00c7ff 0%, #57cfff 100%);
+ 		position: fixed;
+	z-index: 99;
+	width: 100%;
+}
+.nav_container{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 0;
+	margin: 0 auto;
+}
+ul{
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	padding-right: 15%;
+}
+li a{
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.0em;
+	padding-left: 30px;
+	text-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+}
+li a:hover{
+	color: #1e293b;
+}
+.nav_container h1 a{
+	text-decoration: none;
+	font-size: 1.1em;
+	text-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+
+}
+.herosec{
+	padding: 100px 200px;
+	display: flex;
+	align-items: center;
+	background: linear-gradient(
+      90deg,
+      rgba(0, 129, 168, 0.57) 0%,
+      rgba(0, 55, 71, 0.64) 20%
+    ), url(02.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	
+}
+.hero{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.herosec h1{
+	font-size: 3.2em;
+	margin-top: 6%;
+	text-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+
+}
+.herosec h1 span {
+	color: #57cfff;
+}
+.hero p{
+	margin-top: 30px;
+	font-size: 1.2em;
+	padding: 0 20px;
+	text-align: center;
+	text-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+}
+.social-icons{
+	direction: ltr;
+	font-size: 2em;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+.social-icons a i{
+	padding-left:20px ;
+	transition: 0.3s ease;
+	opacity: 0.6;
+	text-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+}
+.social-icons a i:hover{
+	opacity: 1;
+}
+#btn0{
+	background-color:#57cfff ;
+    padding: 12px 30px;
+    margin-top: 60px;
+    border-radius: 12px;
+    border: none;
+    font-weight: 800;
+    transition: 0.7s ease;
+
+}
+#btn0 a{
+	text-decoration: none;
+	font-size: 1.3em;
+}
+
+
+#btn0:hover {
+  background-color: #1e293b;
+  color: #fff;
+  transform: scale(1.1);
+
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+.sec2{
+	min-height: 70vh;
+	background-color:#1e293b;
+}
+.sec2 h2{
+	font-size: 2em;
+	padding:36px 0 ;
+	text-align: center;
+	text-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+
+}
+.all-boxes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0 0 20px;
+}
+.box{
+	background-color: #1d5468;
+	text-align: center;
+	padding: 33px 12px;
+	margin: 25px;
+	width: 25em;
+	height: 22em;
+	border-radius: 15px;
+	opacity: 0.8;
+	transition: 0.3s;
+	box-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+	transition: ease-in-out .3s;
+
+}
+.box:hover{
+  transform: scale(1.05);
+  opacity: 1;
+}
+.icon{
+	margin: -12px 0;
+	font-size: 4em;
+	color: white;
+}
+.box p{
+	font-size: 0.75em;
+}
+.box h3{
+	font-size: 1.3em;
+}
+.sec3{
+	background: linear-gradient(
+      90deg,
+      rgba(44, 192, 237, 0.43) 0%,
+      rgba(19, 102, 154, 0.78) 20%
+    ), url(01.jpg) no-repeat;
+	background-size:cover ;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.us{
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	background: rgba(0,0,0,0.5);
+	background: linear-gradient(
+      90deg,
+     rgba(19, 102, 154, 0.5)0%,
+     rgba(44, 192, 237, 0.35) 20%
+    );
+	box-shadow:0 5px 25px rgba(1, 1, 1, 10%); ;
+	border-radius: 25px;
+	width: 30em;
+	height: 30em;
+	margin: 3% ;
+	opacity: 0.7;
+	transition: 0.3s;
+}
+.us:hover{
+	opacity: 1;
+}
+.us h2{
+	font-size: 2em;
+	padding:36px 0 ;
+	text-align: center;
+	text-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+}
+.us p{
+	text-align: center;
+	margin: 20px 30px;
+	text-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+}
+.contect{
+	display: flex;
+	flex-direction: column;
+}
+.contect h2{
+	font-size: 2em;
+	padding-top: 75px ;
+	text-align: center;
+	text-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+}
+
+label{
+	text-align: center;
+	font-size: 1.1em;
+	padding-top: 10px;
+}
+input{
+	border-radius: 10px;
+	background-color:white ;
+  padding: 8px 80px;
+  margin-top: 10px;
+  border: none;
+  color: #1e293b;
+  width: 100%;
+}
+textarea{
+	border-radius: 10px;
+	background-color:white ;
+	width: 100%;
+	height: 50%;
+	padding: 10px;
+  margin-top: 10px;
+  border: none;
+  color: #1e293b;
+}
+form{
+	display: flex;
+  align-items: center;
+	flex-direction: column;
+}
+#btn {
+	background-color:#57cfff ;
+	width: 25%;
+  padding: 10px 10px;
+  margin-top: 10px;
+  border-radius: 12px;
+  border: none; 
+  transition: 0.9s;
+}
+#btn:hover{
+	background-color: #1e293b;
+	
+}
+#btn a{
+	 font-weight: 800;
+	 text-decoration: none;
+	 font-size: 1.3em;
+}
+.footer{
+	width: 100%;
+	background-color: #000000;
+	background-image: linear-gradient(225deg,
+	#000000 0%, #001017 100%);
+	padding: 1em;
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+}
+.social{
+	direction: ltr;
+	font-size: 1.2em;
+	margin-right:4em;
+}
+.social a{
+	padding-left:15px;	
+}
+.social a i{
+	transition: 0.3s ease;
+	opacity: 0.6;
+	text-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+}
+.social a i:hover{
+	opacity: 1;
+}
+.footer h2{
+	font-size: 0.8em;
+	margin-left:3.5em;
+}
+.footer h2 span{
+	transition: 0.3s ease;
+	opacity: 0.6;
+	text-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+}
+.footer h2 span:hover{
+	opacity: 1;
+}
+@media (max-width: 980px){
+	html{
+	font-size: 14px;
+}
+ .nav_container{
+
+ }
+ .herosec{
+padding: 60px 0 20px;
+}
+ .herosec h1{
+	font-size: 2.8em;}
+	input, textarea{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.contect {
+    padding-bottom: 20px;
+}
+}
+@media (max-width: 980px){
+		html{
+	font-size: 10px;
+}
+}
+@media (max-width: 620px){
+	li a {
+    padding-left: 12px;
+  }.herosec h1 {
+    font-size: 2em;
+}  
+}
+ ul{
+ 	padding-right: 0;
+ }
+}
+@media (max-width: :500px){
+
+}
